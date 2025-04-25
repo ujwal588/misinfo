@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthVerify AI | Detect & Combat Misinformation in Real-Time</title>
+    <style>
+        :root {
+            --primary: #1a5276;
+            --secondary: #2980b9;
+            --accent: #e74c3c;
+            --light: #f9f9f9;
+            --dark: #2c3e50;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        nav a {
+            color: white;
+            margin-left: 1.5rem;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .cta-button {
+            background-color: var(--accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #c0392b;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 3rem 1rem;
+            background-color: var(--light);
+        }
+        .feature-card {
+            width: 300px;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            background: white;
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .how-it-works {
+            background-color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .steps {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .step {
+            width: 200px;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            background: var(--light);
+        }
+        .demo {
+            padding: 3rem 2rem;
+            text-align: center;
+            background: var(--light);
+        }
+        .demo-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        .browser-badges {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 1rem;
+        }
+        .browser-badge {
+            width: 120px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="https://via.placeholder.com/40" alt="TruthVerify AI Logo">
+            TruthVerify AI
+        </a>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#demo">Demo</a>
+            <a href="#download">Download</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Stop Misinformation Before It Spreads</h1>
+        <p>TruthVerify AI detects fake news, deepfakes, and manipulated content in real-time across social media, news sites, and forums.</p>
+        <button class="cta-button">Install Now - Free</button>
+        <div class="browser-badges">
+            <img src="https://via.placeholder.com/120x40" alt="Chrome" class="browser-badge">
+            <img src="https://via.placeholder.com/120x40" alt="Firefox" class="browser-badge">
+            <img src="https://via.placeholder.com/120x40" alt="Edge" class="browser-badge">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature-card">
+            <h3>⚡ Real-Time AI Detection</h3>
+            <p>Scans posts, articles, and videos instantly using advanced machine learning models trained on verified misinformation patterns.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🔍 Source Verification</h3>
+            <p>Checks the credibility of sources and cross-references claims with fact-checking databases like Snopes and FactCheck.org.</p>
+        </div>
+        <div class="feature-card">
+            <h3>📌 Contextual Explanations</h3>
+            <p>Provides detailed breakdowns on why content was flagged, with links to trusted debunks.</p>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How TruthVerify AI Protects You</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Install Extension</h3>
+                <p>Add to Chrome, Firefox, or Edge in seconds.</p>
+            </div>
+            <div class="step">
+                <h3>2. Browse Normally</h3>
+                <p>Works automatically on Facebook, Twitter, YouTube, Reddit, and news sites.</p>
+            </div>
+            <div class="step">
+                <h3>3. Get Instant Alerts</h3>
+                <p>See warnings on suspicious content with credibility scores.</p>
+            </div>
+            <div class="step">
+                <h3>4. Learn the Truth</h3>
+                <p>Click for verified explanations and fact-checks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo">
+        <h2>See It in Action</h2>
+        <div class="demo-container">
+            <!-- Replace with GIF/Video -->
+            <p>[Demo: Extension flagging a fake news post on Facebook with a "Why is this flagged?" link]</p>
+            <p>[Demo: Clicking the warning shows a fact-check from Reuters debunking the claim]</p>
+        </div>
+    </section>
+
+    <section id="download" style="background-color: var(--secondary); color: white; padding: 4rem 2rem; text-align: center;">
+        <h2>Take Control of Your Online Information</h2>
+        <p>Join millions of users protected from misinformation daily.</p>
+        <button class="cta-button" style="background-color: white; color: var(--secondary);">Download Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 TruthVerify AI. All rights reserved.</p>
+        <p>Empowering users with AI-driven truth verification.</p>
+    </footer>
+</body>
+</html>

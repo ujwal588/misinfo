@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthGuard | Combat Misinformation Online</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        nav a {
+            color: white;
+            margin-left: 1.5rem;
+            text-decoration: none;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .cta-button {
+            background-color: var(--accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 3rem 1rem;
+        }
+        .feature-card {
+            width: 300px;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .how-it-works {
+            background-color: var(--light);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .steps {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .step {
+            width: 200px;
+            margin: 1rem;
+        }
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TruthGuard</a>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#download">Download</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Combat Misinformation Online</h1>
+        <p>TruthGuard identifies fake content across platforms and provides verified explanations</p>
+        <button class="cta-button">Add to Browser - It's Free</button>
+        <div>
+            <small>Available for Chrome, Firefox, Edge, and Safari</small>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature-card">
+            <h3>Real-time Detection</h3>
+            <p>Flags potentially false content as you browse social media, news sites, and forums.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Verified Explanations</h3>
+            <p>Each flagged item includes a link to detailed analysis from trusted fact-checkers.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Cross-Platform Protection</h3>
+            <p>Works on Facebook, Twitter, YouTube, Reddit, and most websites you visit.</p>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How TruthGuard Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Install</h3>
+                <p>Add the extension to your browser in seconds</p>
+            </div>
+            <div class="step">
+                <h3>2. Browse</h3>
+                <p>Use the internet as you normally would</p>
+            </div>
+            <div class="step">
+                <h3>3. Get Alerts</h3>
+                <p>See warnings on potentially false content</p>
+            </div>
+            <div class="step">
+                <h3>4. Learn More</h3>
+                <p>Click warnings for detailed fact-checks</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" style="padding: 3rem 2rem; text-align: center;">
+        <h2>See It In Action</h2>
+        <div style="max-width: 800px; margin: 0 auto; border: 1px solid #ddd; padding: 1rem;">
+            <!-- This would be an embedded video or animated GIF -->
+            <p>[Demo video showing extension flagging fake news with pop-up explanation]</p>
+        </div>
+    </section>
+
+    <section id="download" style="background-color: var(--secondary); color: white; padding: 3rem 2rem; text-align: center;">
+        <h2>Ready to Browse More Safely?</h2>
+        <button class="cta-button" style="background-color: white; color: var(--secondary);">Download Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 TruthGuard. All rights reserved.</p>
+        <p>Committed to fighting misinformation online.</p>
+    </footer>
+</body>
+</html>
